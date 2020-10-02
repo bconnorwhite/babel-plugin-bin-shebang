@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-bin-shebang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prepend node shebang to bin files",
   "license": "MIT",
   "author": {
