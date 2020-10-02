@@ -1,6 +1,7 @@
 <div align="center">
-  <img src="assets/keycap-number-sign.png" alt="Keycap Number Sign" width="80" height="80">
-  <h1>babel-plugin-bin-shebang</h1>
+  <img src="assets/header.svg" />
+</div>
+<div align="center">
   <a href="https://npmjs.com/package/babel-plugin-bin-shebang">
     <img alt="NPM" src="https://img.shields.io/npm/v/babel-plugin-bin-shebang.svg">
   </a>
