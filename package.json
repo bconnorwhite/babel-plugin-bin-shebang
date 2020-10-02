@@ -1,0 +1,63 @@
+{
+  "name": "babel-plugin-bin-shebang",
+  "version": "1.0.0",
+  "description": "Prepend node shebang to bin files",
+  "license": "MIT",
+  "author": {
+    "name": "Connor White",
+    "email": "connor.bcw@gmail.com",
+    "url": "https://connorwhite.org"
+  },
+  "homepage": "https://connorwhite.org/github/babel-plugin-bin-shebang",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bconnorwhite/babel-plugin-bin-shebang.git"
+  },
+  "keywords": [
+    "babel",
+    "plugin",
+    "bin",
+    "shebang",
+    "hashbang",
+    "babel-plugin",
+    "comment",
+    "npm",
+    "package",
+    "json",
+    "pkg",
+    "prepend",
+    "append",
+    "node"
+  ],
+  "files": [
+    "build"
+  ],
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "bob build",
+    "commit": "bob commit",
+    "lint": "bob lint",
+    "release": "bob publish",
+    "test": "bob test"
+  },
+  "dependencies": {
+    "@bconnorwhite/package": "^4.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/types": "^7.11.5",
+    "@bconnorwhite/bob": "^2.8.1",
+    "@types/node": "^14.11.2"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-bob"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "bob lint commit"
+    }
+  },
+  "npmpackagejsonlint": {
+    "extends": "npm-package-json-lint-config-bob"
+  }
+}
